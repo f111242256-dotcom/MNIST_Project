@@ -17,7 +17,7 @@ if uploaded_file is not None:
         }
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://mnistproject-production.up.railway.app/predict",
             files=files
         )
 
